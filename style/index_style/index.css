@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-package/Regular.eot");
+  src: url("../assets/fonts/Inter-package/Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Inter-package/Inter Regular.woff2") format("woff2"), url("../assets/fonts/Inter-package/Inter Regular.woff") format("woff"), url("../assets/fonts/Inter-package/Inter Regular.ttf") format("truetype"), url("../assets/fonts/Inter-package/Inter Regular.svg#Inter Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-E0D0;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-package/Inter Bold.eot");
+  src: url("../assets/fonts/Inter-package/Inter Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Inter-package/Inter Bold.woff2") format("woff2"), url("../assets/fonts/Inter-package/Inter Bold.woff") format("woff"), url("../assets/fonts/Inter-package/Inter Bold.ttf") format("truetype"), url("../assets/fonts/Inter-package/Inter Bold.svg#Inter Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-E0D0;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-package/Bold.eot");
+  src: url("../assets/fonts/Montserrat-package/Montserrat Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Montserrat-package/Montserrat Bold.woff2") format("woff2"), url("../assets/fonts/Montserrat-package/Montserrat Bold.woff") format("woff"), url("../assets/fonts/Montserrat-package/Montserrat Bold.ttf") format("truetype"), url("../assets/fonts/Montserrat-package/Montserrat Bold.svg#Montserrat Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+@font-face {
+  font-family: "Playfair Display Medium";
+  src: url("../assets/fonts/Playfair_Display-package/Display Medium.eot");
+  src: url("../assets/fonts/Playfair_Display-package/Playfair Display Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Playfair_Display-package/Playfair Display Medium.woff2") format("woff2"), url("../assets/fonts/Playfair_Display-package/Playfair Display Medium.woff") format("woff"), url("../assets/fonts/Playfair_Display-package/Playfair Display Medium.svg#Playfair Display Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222021;
+}
+
+.container-main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 228px;
+}
+.header__container {
+  background-color: #1E0C06;
+  border-radius: 0px 0px 79px 79px;
+  padding: 3%;
+  box-shadow: 0px -8px 52px 0px rgba(245, 245, 245, 0.17);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__logo .logo {
+  max-width: 197px;
+  width: 100%;
+}
+.header__nav {
+  width: 50%;
+}
+.header__items {
+  display: flex;
+  justify-content: space-between;
+}
+.header__item {
+  list-style: none;
+}
+.header__nav-link {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.header .active {
+  color: #A3B8D7;
+}
+
+.jnetwo {
+  height: 100vh;
+  background-color: rgb(85, 97, 93);
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  max-height: 301px;
+  height: 100%;
+  background-color: #222021;
+  box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17);
+}
+.footer__container {
+  margin: 4%;
+}
+.footer__basic {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10%;
+}
+.footer__tel {
+  display: flex;
+  align-items: center;
+  max-width: 20%;
+  width: 100%;
+}
+.footer__tel-icon {
+  max-width: 50px;
+  width: 50%;
+  padding: 10px;
+}
+.footer__tel-number {
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #F5F5F5;
+}
+.footer__address {
+  display: flex;
+  align-items: center;
+  max-width: 17%;
+  width: 100%;
+}
+.footer__address-icon {
+  max-width: 50px;
+  width: 50%;
+  padding: 5%;
+}
+.footer__address-text {
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #F5F5F5;
+}
+.footer__privacy {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer__privacy-text {
+  color: #F5F5F5;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=index.css.map */

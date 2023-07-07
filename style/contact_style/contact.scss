@@ -1,0 +1,274 @@
+@import '../fonts';
+@import "../template";
+
+
+body {
+    background-color: #222021;
+    background-image: url(/assets/img/contact_img/group-36.png);
+    background-size: cover;
+    background-color: rgba(33, 33, 33);
+}
+
+// .container {
+//     // min-height: 1396px;
+//     height: 100%;
+// }
+
+.title {
+    @extend %title;
+
+    @media #{$tablet} {
+        font-size: 60px;
+    }
+
+    @media #{$mobile} {
+        font-size: 30px;
+    }
+}
+
+.elements-text {
+    @extend %elements-text;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+
+    @media #{$mobile} {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.button {
+    @extend %button;
+}
+
+// ?
+img {
+    max-width: 100%;
+
+    @media #{$mobile} {
+        width: 347px;
+        height: 230px;
+    }
+}
+
+
+.contact {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 933px;
+    display: flex;
+    gap: 141px;
+    // кольца
+    // background-image: url(/assets/img/contact_img/group-36.png);
+    // background-size: cover;
+    // background-color: rgba(33, 33, 33);
+
+    @media #{$tablet} {
+        flex-direction: column;
+        gap: 98px;
+        min-height: 645px;
+    }
+
+    @media #{$mobile} {
+        flex-direction: column;
+        gap: 49px;
+        min-height: 539px;
+    }
+
+    &__map {
+        display: flex;
+        align-items: center;
+        margin-right: 32px;
+
+
+        @media #{$tablet} {
+            justify-content: center;
+        }
+
+        @media #{$mobile} {
+            margin: 0 15px 0 15px;
+        }
+    }
+}
+
+
+.contact-info {
+    // padding-left: 245px;
+    // padding-top: 180px;
+    padding-left: 17%;
+    padding-top: 12.5%;
+
+    @media #{$mobile} {
+        padding-left: 24px;
+        padding-top: 23px;
+    }
+
+    &__title-wrapper {
+        height: 120px;
+        margin-bottom: 118px;
+
+        @media #{$tablet} {
+            margin-bottom: 60px;
+        }
+
+        @media #{$mobile} {
+            height: 40px;
+            margin-bottom: 41px;
+        }
+    }
+
+    &__tel {
+        margin-bottom: 33px;
+
+        @media #{$mobile} {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__address {
+        width: 377px;
+
+        @media #{$mobile} {
+            width: 250px;
+        }
+    }
+
+    &__address-text {
+        // border: solid 1px white;
+        max-width: 280px;
+    }
+}
+
+
+.item {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+
+    @media #{$mobile} {
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+
+    @media #{$mobile} {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+
+//footer
+
+.footer {
+    // position: absolute;
+    display: flex;
+    width: 100%;
+    height: 301px;
+    background-color: #222021;
+    box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17);
+    padding: 4%;
+    max-width: 1440px;
+    gap: 58PX;
+
+    @media #{$mobile} {
+        height: 352px;
+    }
+
+    &__container {
+        // margin: 4%;
+        width: 100%;
+    }
+
+    &__basic {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10%;
+        max-width: 1168px;
+
+        @media #{$tablet} {
+            // flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        @media #{$mobile} {
+            // flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-left: 89px;
+        }
+    }
+
+    &__logo-icon {
+        @media #{$mobile} {
+            width: 162px;
+        }
+    }
+
+    // &__tel{
+    //     display: flex;
+    //     align-items: center;
+    //     // width: 100%;
+    //     // margin-left: 70px;
+    //     // margin-right: 107px;
+    // }
+
+    &__tel-icon {
+        width: 50px;
+        height: 50px;
+
+        @media #{$mobile} {
+            width: 24px;
+        }
+    }
+
+    &__tel-text {
+        // font-size: 1.7em;
+        width: 291px;
+        height: 42px;
+    }
+
+    &__address {
+        // display: flex;
+        // align-items: center;
+        width: 377px;
+
+        @media #{$mobile} {
+            width: 250px;
+        }
+    }
+
+    &__address-icon {
+        width: 50px;
+        height: 50px;
+
+        @media #{$mobile} {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    &__address-text {
+        // font-size: 1.7em;
+        max-width: 280px;
+    }
+
+    &__privacy {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__privacy-text {
+        @extend %text;
+        font-size: 1.3em;
+    }
+}

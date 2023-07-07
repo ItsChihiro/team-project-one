@@ -1,0 +1,47 @@
+@import "../fonts";
+@import "../template";
+
+$words_color: #F5F5F5;
+
+body {
+    color: $words_color;
+    background-image: url(/assets/img/gallery_img/rings.png);
+    background-size: cover;
+    background-color: rgba(33, 33, 33) !important;
+}
+
+.materials {
+    &__title {
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+    }
+
+    &__title-text {
+        color: $words_color;
+        font-size: 50px;
+        padding-right: 40%;
+
+
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: $words_color;
+        max-width: 90%;
+
+
+        .card__item {
+            display: flex;
+            align-items: center;
+
+        }
+    }
+
+    .card__title {
+        color: $words_color;
+        text-align: center;
+    }
+}
