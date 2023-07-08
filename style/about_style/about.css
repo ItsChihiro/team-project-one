@@ -68,7 +68,10 @@ body {
 }
 
 body {
-  background: #222021 !important;
+  background: #222021;
+  background-image: url(/assets/img/about_img/RingsGroup_35.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33) !important;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -91,16 +94,16 @@ body {
 .about {
   border-radius: 0px 42px 42px 0px;
   background-color: #1e0c06;
-  max-width: 1325px;
-  width: 100%;
+  width: 92%;
   min-height: 775px;
   padding: 32px;
   box-shadow: 0px -8px 52px 0px rgba(238, 238, 238, 0.17);
   display: flex;
   margin-right: 28px;
+  margin-top: 105px;
   margin-bottom: 200px;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1380px) {
   .about {
     flex-direction: column;
     gap: 46px;
@@ -115,10 +118,11 @@ body {
 }
 @media screen and (max-width: 599px) {
   .about {
-    max-width: 340px;
+    width: 94%;
     min-height: 674px;
     flex-direction: column;
     gap: 46px;
+    margin-top: 29px;
   }
 }
 
@@ -174,7 +178,7 @@ body {
   width: 100%;
   height: 699px;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1380px) {
   .about-pictures {
     max-width: 560px;
     margin: 0 200px 20px 100px;
