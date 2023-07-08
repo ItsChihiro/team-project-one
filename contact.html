@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <div class="container-main">
-        <header class="header">
-            <div class="header__container">
+    <header class="header">
+        <div class="header__container container-main">
+            <div class="header__wrapper">
                 <div class="header__logo">
                     <a href="./home.html">
-                        <img src="./assets/img/template/logo.svg" alt="logo icon" class="logo">
+                        <img src="./assets/img/template/logo.svg" alt="logo icon" class="header__logo-img">
                     </a>
                 </div>
 
@@ -26,14 +26,22 @@
                         <li class="header__item"><a class="header__nav-link" href='/gallery.html/'>Gallery</a></li>
                         <li class="header__item"><a class="header__nav-link" id="red" href='/prices.html/'>Prices for
                                 services</a></li>
-                        <li class="header__item"><a class="header__nav-link" href='/about.html/'>About us</a></li>
+                        <li class="header__item"><a class="header__nav-link" href='/about.html/'>About us</a>
+                        </li>
                         <li class="header__item"><a class="header__nav-link active" href='/contact.html/'>Contact</a>
                         </li>
                     </ul>
                 </nav>
+                <div class="header__burger">
+                    <img src="./assets/img/template/burger.svg" alt="burger" class="header__burger-img">
+                </div>
             </div>
-        </header>
 
+        </div>
+    </header>
+
+
+    <div class="container-main">
         <main>
             <section class="contact">
                 <div class="contact-info text">
@@ -64,10 +72,12 @@
                 </div>
             </section>
         </main>
+    </div>
 
 
-        <footer class="footer">
-            <div class="footer__container">
+    <footer class="footer">
+        <div class="footer__container container-main">
+            <div class="footer__wrapper">
                 <div class="footer__basic">
                     <div class="footer__logo">
                         <img class="footer__logo-icon" src="./assets/img/template/logo.svg">
@@ -90,9 +100,8 @@
                     <p class="footer__privacy-text">Privacy Policy</p>
                 </div>
             </div>
-        </footer>
-
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>

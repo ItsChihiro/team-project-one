@@ -5,48 +5,35 @@
 //header
 
 .header {
-    // position:absolute;
     height: 183px;
     background-color: #1E0C06;
     border-radius: 0px 0px 79px 79px;
     box-shadow: 0px -8px 52px 0px rgba(245, 245, 245, 0.17);
-
-
-    @media #{$mobile} {
-        height: 82px;
-    }
 
     @media #{$mobile} {
         border-radius: 0px 0px 30px 30px;
         height: 82px;
     }
 
-    &__container {
-        width: 100%;
+    &__wrapper {
         height: 183px;
-        max-width: 1440px;
-        margin: 0 auto;
-
         padding: 4%;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        // margin-bottom: 200px;
         @media #{$mobile} {
             border-radius: 0px 0px 30px 30px;
             height: 82px;
         }
     }
 
-    &__logo {
-        .logo {
-            width: 197px;
-            max-width: 100%;
+    &__logo-img {
+        width: 197px;
+        max-width: 100%;
 
-            @media #{$mobile} {
-                width: 84px;
-            }
+        @media #{$mobile} {
+            width: 84px;
         }
     }
 
@@ -74,7 +61,7 @@
         font-size: 20px;
 
         @media #{$tablet} {
-            font-size: 12px;
+            font-size: 14px;
         }
     }
 
@@ -83,6 +70,7 @@
 
         @media #{$mobile} {
             display: block;
+            width: 23px;
         }
 
     }

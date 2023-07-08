@@ -12,27 +12,41 @@
     }
 }
 
+.elements-text {
+    @extend %elements-text;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+
+    @media #{$mobile} {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
 
 //footer
 
 .footer {
-    // position: absolute;
-    display: flex;
-    width: 100%;
     height: 301px;
     background-color: #222021;
     box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17);
-    padding: 4%;
-    max-width: 1440px;
-    gap: 58PX;
 
     @media #{$mobile} {
         height: 352px;
     }
 
-    &__container {
-        // margin: 4%;
+    &__wrapper {
         width: 100%;
+        height: 301px;
+        max-width: 1440px;
+        margin: 0 auto;
+
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
     }
 
     &__basic {
@@ -79,7 +93,6 @@
     }
 
     &__tel-text {
-        // font-size: 1.7em;
         width: 291px;
         height: 42px;
     }
@@ -105,7 +118,6 @@
     }
 
     &__address-text {
-        // font-size: 1.7em;
         max-width: 280px;
     }
 
