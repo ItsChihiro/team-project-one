@@ -82,12 +82,11 @@ body {
     height: 82px;
   }
 }
-.header__logo-img {
+.header__logo {
   width: 197px;
-  max-width: 100%;
 }
 @media screen and (max-width: 599px) {
-  .header__logo-img {
+  .header__logo {
     width: 84px;
   }
 }

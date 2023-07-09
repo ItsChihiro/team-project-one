@@ -28,9 +28,8 @@
         }
     }
 
-    &__logo-img {
+    &__logo {
         width: 197px;
-        max-width: 100%;
 
         @media #{$mobile} {
             width: 84px;
