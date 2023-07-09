@@ -1,12 +1,6 @@
 @import "../fonts";
 @import "../template";
 
-body {
-    background: #222021;
-    background-image: url(/assets/img/about_img/RingsGroup_35.png);
-    background-size: cover;
-    background-color: rgba(33, 33, 33) !important;
-}
 
 .title {
     @extend %title;
@@ -141,7 +135,6 @@ body {
     @media #{$mobile} {
         width: 283px;
         margin: 0 auto;
-        // gap: 36px;
         height: 400px;
         margin-left: -3px;
     }

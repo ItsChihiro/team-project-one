@@ -34,14 +34,40 @@
   font-stretch: normal;
   unicode-range: U+0020-2212;
 }
+.background-price-page {
+  background-image: url("/assets/img/price_img/rings_price.png");
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-about-page {
+  background-image: url(/assets/img/about_img/RingsGroup_35.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-contact-page {
+  background-image: url(/assets/img/contact_img/group-36.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-home-page {
+  background-image: url(/assets/img/contact_img/group-36.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-gallery-page {
+  background-image: url(/assets/img/contact_img/group-36.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #222021;
 }
 
 .container-main {
@@ -58,6 +84,16 @@ body {
   text-transform: uppercase;
   margin: 0;
 }
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .title {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .title {
+    font-size: 30px;
+  }
+}
 
 .text {
   font-family: "Inter", sans-serif;
@@ -65,6 +101,11 @@ body {
   color: #f5f5f5;
   font-size: 30px;
   line-height: 139.4%;
+}
+@media screen and (max-width: 599px) {
+  .text {
+    font-size: 15px;
+  }
 }
 
 .button {
@@ -76,7 +117,12 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  border: none;
   cursor: pointer;
+}
+
+img {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {

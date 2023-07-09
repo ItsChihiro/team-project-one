@@ -34,19 +34,49 @@
   font-stretch: normal;
   unicode-range: U+0020-2212;
 }
+.background-price-page {
+  background-image: url("/assets/img/price_img/rings_price.png");
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-about-page {
+  background-image: url(/assets/img/about_img/RingsGroup_35.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-contact-page {
+  background-image: url(/assets/img/contact_img/group-36.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-home-page {
+  background-image: url(/assets/img/contact_img/group-36.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
+.background-gallery-page {
+  background-image: url(/assets/img/contact_img/group-36.png);
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: #222021;
-}
-
 .container-main {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
 }
 
 body {

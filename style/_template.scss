@@ -1,26 +1,47 @@
-//Темплейты Марьям
-
-$xxl: 1440px;
-$xl: 992px;
-$l: 576px;
-
 $mobile: "screen and (max-width: 599px)";
 $tablet: "screen and (min-width: 600px) and (max-width: 1023px)";
 $desktop: "screen and (min-width: 1024px)";
+$largedesktop: "screen and (min-width: 1920px)";
 
 $text-color: #F5F5F5;
+$colorbtn: #728bad;
+
+.background-price-page {
+    background-image: url("/assets/img/price_img/rings_price.png");
+    background-size: cover;
+    background-color: rgba(33, 33, 33);
+}
+
+.background-about-page {
+    background-image: url(/assets/img/about_img/RingsGroup_35.png);
+    background-size: cover;
+    background-color: rgba(33, 33, 33);
+}
+
+.background-contact-page {
+    background-image: url(/assets/img/contact_img/group-36.png);
+    background-size: cover;
+    background-color: rgba(33, 33, 33);
+}
+
+.background-home-page {
+    background-image: url(/assets/img/contact_img/group-36.png);
+    background-size: cover;
+    background-color: rgba(33, 33, 33);
+}
+
+.background-gallery-page {
+    background-image: url(/assets/img/contact_img/group-36.png);
+    background-size: cover;
+    background-color: rgba(33, 33, 33);
+}
+
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: #222021;
-    // background-image: url(/assets/img/contact_img/group-36.png);
-    // background-size: cover;
-    // background-color: rgba(33, 33, 33);
 }
 
 .container-main {
@@ -38,6 +59,14 @@ body {
     text-transform: uppercase;
     // перекрыла временно марджины из normilize.css
     margin: 0;
+
+    @media #{$tablet} {
+        font-size: 60px;
+    }
+
+    @media #{$mobile} {
+        font-size: 30px;
+    }
 }
 
 %text {
@@ -46,6 +75,10 @@ body {
     color: #f5f5f5;
     font-size: 30px;
     line-height: 139.4%;
+
+    @media #{$mobile} {
+        font-size: 15px;
+    }
 }
 
 %elements-text {
@@ -65,5 +98,10 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border: none;
     cursor: pointer;
+}
+
+img {
+    max-width: 100%;
 }

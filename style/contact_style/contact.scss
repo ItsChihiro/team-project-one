@@ -2,18 +2,6 @@
 @import "../template";
 
 
-body {
-    background-color: #222021;
-    background-image: url(/assets/img/contact_img/group-36.png);
-    background-size: cover;
-    background-color: rgba(33, 33, 33);
-}
-
-// .container {
-//     // min-height: 1396px;
-//     height: 100%;
-// }
-
 .title {
     @extend %title;
 

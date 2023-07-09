@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap");
 @font-face {
   font-family: "Inter";
   src: url("../assets/fonts/Inter-package/Regular.eot");
@@ -35,36 +35,6 @@
   font-stretch: normal;
   unicode-range: U+0020-2212;
 }
-.background-price-page {
-  background-image: url("/assets/img/price_img/rings_price.png");
-  background-size: cover;
-  background-color: rgb(33, 33, 33);
-}
-
-.background-about-page {
-  background-image: url(/assets/img/about_img/RingsGroup_35.png);
-  background-size: cover;
-  background-color: rgb(33, 33, 33);
-}
-
-.background-contact-page {
-  background-image: url(/assets/img/contact_img/group-36.png);
-  background-size: cover;
-  background-color: rgb(33, 33, 33);
-}
-
-.background-home-page {
-  background-image: url(/assets/img/contact_img/group-36.png);
-  background-size: cover;
-  background-color: rgb(33, 33, 33);
-}
-
-.background-gallery-page {
-  background-image: url(/assets/img/contact_img/group-36.png);
-  background-size: cover;
-  background-color: rgb(33, 33, 33);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -85,19 +55,19 @@
   text-transform: uppercase;
   margin: 0;
 }
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  .title {
-    font-size: 60px;
-  }
-}
-@media screen and (max-width: 599px) {
-  .title {
-    font-size: 30px;
-  }
+
+.block-pricelist__table-item, .block-pricelist__table-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-style: normal;
+  line-height: 139.4%;
 }
 
-img {
-  max-width: 100%;
+.background-price-page {
+  background-image: url("/assets/img/price_img/rings_price.png");
+  background-size: cover;
+  background-color: rgb(33, 33, 33);
 }
 
 .table {
@@ -107,9 +77,6 @@ img {
 
 .commoncontainer {
   width: 100%;
-  background-image: url("/assets/img/price_img/rings_price.png");
-  background-size: cover;
-  background-color: rgb(33, 33, 33);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,13 +164,7 @@ img {
 .block-pricelist__title {
   display: flex;
   justify-content: start;
-  padding: 0 1% 0 2%;
-  margin-bottom: 116px;
-}
-@media screen and (max-width: 599px) {
-  .block-pricelist__title {
-    margin-bottom: 57px;
-  }
+  padding: 0 1% 0 1%;
 }
 .block-pricelist__wrapper {
   display: flex;
@@ -228,13 +189,11 @@ img {
   }
 }
 .block-pricelist__table-title {
-  font-family: Montserrat, sans-serif;
   font-weight: bold;
   padding-top: 1.4vh;
 }
 .block-pricelist__table-item {
   font-size: 1.2em;
-  font-family: Montserrat, sans-serif;
   display: flex;
   justify-content: center;
   white-space: nowrap;
