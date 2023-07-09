@@ -3,13 +3,6 @@
 
 $words_color: #F5F5F5;
 
-body {
-    color: $words_color;
-    background-image: url(/assets/img/gallery_img/rings.png);
-    background-size: cover;
-    background-color: rgba(33, 33, 33) !important;
-}
-
 .materials {
     &__title {
         display: flex;

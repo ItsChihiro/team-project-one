@@ -1,18 +1,6 @@
 @import "../fonts";
 @import "../template";
 
-body {
-    background: #222021;
-    // overflow-x: hidden;
-}
-
-// div {
-//     border: solid 1px red;
-// }
-
-// p {
-//     border: solid 1px red;
-// }
 
 .title {
     @extend %title;
@@ -38,7 +26,6 @@ body {
 // BLOCK ADVANTAGES
 
 .advantages {
-    background-color: #222021;
     max-width: 1188px;
     width: 100%;
     min-height: 927px;

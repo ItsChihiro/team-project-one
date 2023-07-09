@@ -53,13 +53,13 @@
 }
 
 .background-home-page {
-  background-image: url(/assets/img/contact_img/group-36.png);
+  background-image: url(/assets/img/home_img/homeRings.png);
   background-size: cover;
   background-color: rgb(33, 33, 33);
 }
 
 .background-gallery-page {
-  background-image: url(/assets/img/contact_img/group-36.png);
+  background-image: url(/assets/img/gallery_img/rings.png);
   background-size: cover;
   background-color: rgb(33, 33, 33);
 }
@@ -125,10 +125,6 @@ img {
   max-width: 100%;
 }
 
-body {
-  background: #222021;
-}
-
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .title {
     font-size: 60px;
@@ -147,7 +143,6 @@ body {
 }
 
 .advantages {
-  background-color: #222021;
   max-width: 1188px;
   width: 100%;
   min-height: 927px;
